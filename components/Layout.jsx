@@ -9,6 +9,8 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Head>
         <title>Best Online Audio Products Store</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8959156253229201"
+         crossorigin="anonymous"></script>
       </Head>
       <header>
         <Navbar />
