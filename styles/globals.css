@@ -761,3 +761,57 @@ margin-top: 160px;
   margin: auto;
 }
 }
+
+/* Modern dark background and clean, readable text */
+.footer-container {
+  background-color: #1e1e1e; /* Dark grey background */
+  padding: 20px 0;
+  color: #f0f0f0; /* Light grey text for readability */
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #f0f0f0; /* Light grey for text */
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-link {
+  font-size: 1.8rem; /* Slightly larger icons */
+  color: #f0f0f0; /* Default icon color */
+  transition: color 0.3s ease;
+}
+
+/* Icon hover effects: add brand colors */
+.icon-link:hover {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.icon-link:nth-child(1):hover {
+  color: #e4405f; /* Instagram pink */
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-text {
+    margin-bottom: 0;
+  }
+}
